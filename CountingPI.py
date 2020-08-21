@@ -68,21 +68,9 @@ def calculatePI():
 calculatePI()
 
 
-exit()
 
 
 
 
 
 
-
-print(lastDigit(1))
-#print(otherDigits(100))
-def mainCalc(startDecimalPlaces):
-	for i in range (1, startDecimalPlaces+1):
-		if(i==startDecimalPlaces):
-			lastDigit(i)
-		else:
-			digits = otherDigits(i)
-			for val in digits:
-				mainCalc( )
